@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-window",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Window component for hyperterm",
   "main": "index.js",
   "scripts": {
