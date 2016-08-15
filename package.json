@@ -1,0 +1,22 @@
+{
+  "name": "hyperterm-window",
+  "version": "1.0.0",
+  "description": "Window component for hyperterm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathisonian/hyperterm-window.git"
+  },
+  "keywords": [
+    "hyperterm"
+  ],
+  "author": "Matthew Conlen <mc@mathisonian.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathisonian/hyperterm-window/issues"
+  },
+  "homepage": "https://github.com/mathisonian/hyperterm-window#readme"
+}
