@@ -25,7 +25,7 @@ exports.middleware = (store) => (next) => (action) => {
   }
   if (action.type === 'SESSION_ADD_DATA') {
     const { data } = action;
-    if (/(show-window: command not found)|(command not found: show-window)/.test(data)) {
+    if (/(toggle-window: command not found)|(command not found: toggle-window)/.test(data)) {
       store.dispatch({
         type: 'TOGGLE_WINDOW'
       });
