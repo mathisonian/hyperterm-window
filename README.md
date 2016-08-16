@@ -29,9 +29,19 @@ exports.decorateTerm = (Term, { React, notify }) => {
 
 ```
 
+See the [example](./examples/index.js) for how to integrate the window with the hyperterm redux store. 
+
 ## props
 
 * `width` - the width of the window in pixels. optional.
 * `height` - the height of the window in pixels. optional.
 * `onClose` - function to call when the user clicks the close button
 * `foregroundColor`, `backgroundColor` - these should be the colors specified in the user's `.hyperterm.js`, used to make the window integrate well into the terminal. If you just pass all of `this.props` from a terminal decorator these will get set automatically (see example above).
+
+## TODO
+
+- [ ] add `position` prop - e.g. 'UPPER_LEFT', 'BOTTOM_RIGHT', etc
+- [ ] add ability to drag
+- [ ] add ability to resize
+
+Pull requests welcome!
